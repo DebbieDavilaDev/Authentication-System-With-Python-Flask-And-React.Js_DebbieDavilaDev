@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { Context } from "../store/appContext";
-import rigoImageUrl from "../../img/rigo-baby.jpg";
+import rigoImageUrl from "../../img/flamingofamily.jpg";
 import "../../styles/home.css";
 
 export const Home = () => {
@@ -8,7 +8,8 @@ export const Home = () => {
 
 	return (
 		<div className="text-center mt-5">
-			<h1>Hello Rigo!!</h1>
+			<h1>Hello Debbie!!</h1>
+			<h1>Hello Debbie!!</h1>
 			<p>
 				<img src={rigoImageUrl} />
 			</p>
